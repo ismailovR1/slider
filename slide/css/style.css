@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(19, 19, 19, 1);
+
+}
+.slider{
+    max-width: 1171px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 107px;
+    padding-bottom: 123.72px;
+}
+.text-slider__title{
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.42px;
+    letter-spacing: -0.07em;
+    margin-bottom: 34px;   
+    position: relative; 
+    color: rgba(227, 184, 115, 1);
+
+}
+hr{
+    width: 92px;
+    position: absolute;
+    right: 210px;
+    top: 60px;
+    border: 1px solid rgba(227, 184, 115, 1);
+}
+.text-slider__description{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.73px;
+    margin-bottom: 42px;
+    color: rgba(255, 255, 255, 1);
+}
+.text-slider__descr{
+    display: grid;
+    grid-template-columns: 195px 195px;
+}
+.text-slider__city__title{
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.95px;
+    margin-bottom: 9px; 
+    color: rgba(227, 184, 115, 1);
+}
+.slider-text{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.28px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    margin-bottom: 34px;
+}
+.slider-buttons{
+    display: flex;
+    gap: 29px;
+}
+.slider-button{
+    font-size: 41.46px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+.slider-dots{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.slider__dots-item{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.slider__dots-item:hover, .slider__dots-item.active{
+    background-color: rgba(255, 255, 255, 1);
+}
+.slider-img{
+    width: 679px;
+    height: 482.38px;
+    position: relative;
+}
+.slider-img .image{
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 800ms ease;
+}
+.slider-img .image.active{
+    opacity: 1;
+}
+.slider-image__links{
+    display: flex;
+    gap: 60.5px;
+    margin-bottom: 45px;
+}
+.slider-link{
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.4px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.slider-link:hover, .slider-link.active{
+    color: rgba(227, 184, 115, 1);
+    border-bottom: 1px solid rgba(227, 184, 115, 1) ;
+}
+
+
